@@ -1,6 +1,6 @@
 # .github/workflows/docker-image.yml
 
-name: Build and Push Docker Image
+name: Build and Push Docker Image to Docker
 
 on:
   push:
