@@ -35,8 +35,9 @@ It’s important to keep personal access tokens (PATs) secure and not share them
 - You can invalidate your tokens when your workflows no longer need them or when you detect any suspicious activity.
 - Tools like HashiCorp Vault, AWS Secrets Manager, or Azure Key Vault may provide robust solutions for the persistent or automated use of sensitive credentials.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------
 
 ### Addendum: 
+
 The steps and examples assume you’re familiar with respective syntax and conventions within YAML files and workflow configuration per GitHub community standards. 
-Could you confirm v2 or current Docker login actions with official GitHub repository documentation for confirmation and recent updates?
+Could you confirm v2 or current Docker login actions with official GitHub repository documentation for confirmation and recent updates. This is just my own building of a Repo that allows continual Docker Pushes and a CI/CD Template for re-use in future repos...
